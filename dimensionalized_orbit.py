@@ -210,7 +210,7 @@ def main(
         plt.plot(ts, ys[0, :, 1], c="crimson", label = "Real y")
         plt.plot(ts, ys[0, :, 2], c="yellow", label = "Real z")
         model_y = model(ts, ys[0, 0])
-        plt.plot(ts, model_y[:, 0], c="crimson", label="Model x")
+        plt.plot(ts, model_y[:, 0], c="lime", label="Model x")
         plt.plot(ts, model_y[:, 1], c="magenta", label = "Model y")
         plt.plot(ts, model_y[:, 2], c="black", label = "Model z")
         """model_y = model(ts, ys[0, :, 0])
